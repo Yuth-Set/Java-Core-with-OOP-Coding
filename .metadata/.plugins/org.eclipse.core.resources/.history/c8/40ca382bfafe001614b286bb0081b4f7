@@ -1,0 +1,8 @@
+package polymorphismMethodOverriding;
+
+public class DerivedClass {
+
+	public void methodToOverride() {
+		System.out.println("I'm the method of DerivedClass");
+	}
+}

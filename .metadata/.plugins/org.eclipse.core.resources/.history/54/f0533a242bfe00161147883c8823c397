@@ -1,0 +1,14 @@
+package oop;
+
+public class main {
+	public static void main(String[] args) {
+		Vehicle vehicle1 = new Vehicle();
+		System.out.println(vehicle1.color);
+		vehicle1.setName("Audi");
+		System.out.println(vehicle1.name);
+		
+		
+		Vehicle vehicle2 = new Vehicle("Corola", "black", "017", "Honda");
+		System.out.println(vehicle2.color);
+	}
+}

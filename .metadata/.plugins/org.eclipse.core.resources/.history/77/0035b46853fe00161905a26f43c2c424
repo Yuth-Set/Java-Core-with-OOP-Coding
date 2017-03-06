@@ -1,0 +1,7 @@
+package oop2;
+
+abstract class Shape {
+
+	public Shape(){}
+	abstract void draw();
+}

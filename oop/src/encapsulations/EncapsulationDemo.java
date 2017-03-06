@@ -1,0 +1,28 @@
+package encapsulations;
+
+public class EncapsulationDemo {
+
+	private int ssn;
+	private String empName;
+	private int empAge;
+	
+	public int getEmpSSN() {
+		return ssn;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public int getEmpAge() {
+		return empAge;
+	}
+	
+	public void setEmpSSN(int ssn) {
+		this.ssn = ssn;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	public void setEmpAge(int empAge) {
+		this.empAge = empAge;
+	}
+}
